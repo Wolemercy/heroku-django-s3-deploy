@@ -1,7 +1,8 @@
 name: 'Heroku Django S3 Deploy'
 description: 'Automatically deploys a Django app to Heroku'
-icon: 'arrow-right'
-color: 'blue'
+branding:
+    icon: 'arrow-right'
+    color: 'blue'
 inputs:
     heroku_app_name:
         description: 'Heroku app name'
